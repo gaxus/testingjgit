@@ -28,7 +28,7 @@
           <execution>
             <phase>process-resources</phase>
             <configuration>
-              <className>TestGeneratorClassTest</className>
+              <className>TestingGeneratorClass</className>
             </configuration>
             <goals>
               <goal>generate</goal>
