@@ -9053,7 +9053,7 @@ ${redirectURL}
 
 try{
 	JunitRunner j = new JunitRunner()
-	def message = j.runJunitString(context.expand('${redirectURL}'),context.expand('${#Project#Navigateur}'),"D:/POC/scenarios/fdjwebpayment/")
+	def message = j.runJunitString(context.expand('${redirectURL}'),context.expand('${#Project#Navigateur}'),"D:/POC/scenarios/fdjwebpayment3ds/")
 	assert message.equals("ok")
 } catch(Exception e){
 	log.info(e.message)
